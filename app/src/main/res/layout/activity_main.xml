@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.try_itunessearch.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBasicWebServiceAccess"
+        android:onClick="navigateTo"
+        android:text="Basic of Web Service"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBasicRecyclerView"
+        android:onClick="navigateTo"
+        android:text="Basic of RecyclerView"
+        android:layout_margin="12dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCombination"
+        android:onClick="navigateTo"
+        android:text="Combination of Both Above"
+        android:layout_margin="12dp"/>
+</LinearLayout>
